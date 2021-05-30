@@ -26,7 +26,7 @@ namespace GrapeCity.Documents.Excel.Examples.Features.PDFExporting.ConvertExcelT
 		Stream fileStream = GetResourceStream("xlsx\\π‹¿Ì.xlsx");
 		workbook.Open(fileStream);
 		        
-		//save to a pdf file
+		//save to a pdf file £¨£¨£¨
 		workbook.Save("convertexceltopdf.pdf");
 
         }
